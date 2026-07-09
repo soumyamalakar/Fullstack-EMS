@@ -16,7 +16,7 @@ const Sidebar = () => {
       setMobileOpen(false)
     }, [pathname])
 
-    const role = "ADMIN" || "EMPLOYEE" ;
+    const role = "" || "EMPLOYEE" ;
     const navItems= [
         {name:"Dashboard" , href:"/dashboard", icon:LayoutGridIcon},
         role==="ADMIN"?
@@ -55,7 +55,7 @@ const Sidebar = () => {
                 <div className="mx-3 mt-4 mb-1 p-3 rounded-lg bg-white/3 border border-white/4">
                     <div className="flex items-center gap-3">
                         <div className="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center ring-1 ring-white/10 shrink-0">
-                            <span className="text-slate-400text-xs font-semibold">
+                            <span className="text-slate-400 text-xs font-semibold">
                                 {
                                     userName.charAt(0).toUpperCase()
                                 }
