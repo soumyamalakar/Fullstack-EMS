@@ -7,7 +7,7 @@ const CheckInButton = ({todayRecord,onAction}) => {
         setLoading(true)
         setTimeout(()=>{
             setLoading(false)
-            onAction
+            onAction()
         },1000)       
     }
     if(todayRecord?.checkOut)
