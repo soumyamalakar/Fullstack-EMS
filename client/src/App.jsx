@@ -41,4 +41,4 @@ const App = () => {
 export default App
 
 
-// 4:00:00 attendance history
+// 6:11:00 payslip download start
